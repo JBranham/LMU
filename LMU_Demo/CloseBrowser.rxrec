@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="de835b04-c146-40c5-a8f2-8b6c45d7507e"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="LMU_Demo">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="32315e9c-8aaf-4c39-9e73-ab1c99b7ef47">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="217d2646-e3ce-4113-b195-ff52ac80b4a5"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='iexplore']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="6638b1db-5bbb-4075-8693-6e6e1f5c98b1"
+	name="LMU_DemoRepository"
+	relativepath="LMU_DemoRepository.rxrep">
+		<codegen
+		classname="LMU_DemoRepository"
+		namespace="LMU_Demo">
+		</codegen>
+		<rootfolder
+		id="fe32db1c-b71f-4941-9261-db2e4bebf7f1"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
